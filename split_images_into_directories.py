@@ -16,10 +16,10 @@
 #
 #
 # admin stuff
+from __future__ import print_function
 import shutil
 import os
 from random import shuffle
-from __future__ import print_function
 
 def split_inputs_into_response_classes(sourcepath, response_classes):
     '''
